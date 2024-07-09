@@ -6,8 +6,33 @@
 // To see all of Zed's default settings without changing your
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
+
 {
   "ui_font_size": 12,
+  "cursor_blink": false,
   "vim_mode": true,
-  "buffer_font_size": 12
+  "show_inline_completions": false,
+  "relative_line_numbers": true,
+  "scrollbar": {
+    "show": "never"
+  },
+  "vertical_scroll_margin": 0,
+  "buffer_font_size": 12,
+  "experimental.theme_overrides": {
+    "background.appearance": "transparent",
+    "background": "#00000090",
+    "editor.background": "#00000030",
+    "editor.gutter.background": "#00000030",
+    "tab_bar.background": "#00000030",
+    "terminal.background": "#00000030",
+    "toolbar.background": "#00000030",
+    "tab.active_background": "#28282820",
+    "tab.inactive_background": "#00000000",
+    "status_bar.background": "#00000030",
+    "title_bar.background": "#00000030",
+    "panel.background": "#00000030",
+    "border.variant": "#00000000",
+    "scrollbar.track.border": "#00000000",
+    "editor.active_line.background": "#00000000"
+  }
 }
